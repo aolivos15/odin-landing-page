@@ -189,6 +189,14 @@ nav a:hover {
 }
 
 
+/* FOOTER */
+footer {
+    background-color: #f8c0dc;
+    text-align: center;
+    padding: 30px;
+}
+
+
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
     h1 {
