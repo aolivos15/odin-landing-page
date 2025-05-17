@@ -19,4 +19,4 @@ This web page was built with the following tools:
 
 This site was developed by [Andrea Olivos B](https://github.com/aolivos15).
 
-The images used in this project are from [Unsplash](https://unsplash.com/)
+The images used in this project are from [Unsplash](https://unsplash.com/).
