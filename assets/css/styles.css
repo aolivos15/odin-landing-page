@@ -107,6 +107,13 @@ button:hover {
     transition: 0.3s;
 }
 
+.jumbotron-right img, .card img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    border-radius: 6px;
+}
+
 
 /* INFORMATION SECTION */
 
@@ -131,12 +138,23 @@ button:hover {
     padding: 10px;
 }
 
-.jumbotron-right img, .card img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    border-radius: 6px;
+
+/* QUOTE SECTION */
+.quote-section {
+    background-color: #d6c8eb;
+    padding: 100px 200px;
 }
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-attr {
+    text-align: end;
+    font-weight: bold;
+}
+
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
@@ -170,5 +188,13 @@ button:hover {
 
     .card-container {
         flex-direction: column;
+    }
+
+    .quote-section {
+        padding: 60px 40px;
+    }
+
+    .quote {
+        font-size: 20px;
     }
 }
